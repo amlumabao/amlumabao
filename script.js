@@ -110,7 +110,7 @@ let questions = [
         "What animal breathes out of its butt?", ["Turtle","Snail","Crabs","Sea Horse"], "Turtle"
     ),
     new Question(
-        "How do sea Otters keep from drifting apart while they sleep?", ["They Lean on each other","They pinch one another","They hold hands","They Hug each other"], "They Hold Hands"
+        "How do sea Otters keep from drifting apart while they sleep?", ["They Lean on each other","They pinch one another","They hold hands","They Hug each other"], "They hold hands"
     ),
     new Question(
         "What animal is known as sea cows?", ["Otter","Seal","Manatees","Turtle"], "Manatees"
@@ -146,7 +146,7 @@ let questions = [
         "What famous character is known for saying I'll be back?", ["Mc Arthur","Terminator","Thomas Shelby","Swiper the Fox"], "Terminator"
     ),
     new Question(
-        "What is Batman's city?", ["Emeral City","Gotham City","Atlantis City","Tomorrowland"], "Gotham City"
+        "What is Batman's city?", ["Emerald City","Gotham City","Atlantis City","Tomorrowland"], "Gotham City"
     ),
     new Question(
         "Which movie franchise character holds ‘family’ as the most important thing in the world?", ["Brian O'Connor","Dominic Torreto","Han Lue","Letty Ortiz"], "Dominic Torreto"
@@ -176,7 +176,7 @@ let quiz = new Quiz(questions);
 displayQuestion();
 
 
-let time = 50;
+let time = 30;
 let quizTimeInMinutes = time * 60 * 60;
 quizTime = quizTimeInMinutes / 60;
 
