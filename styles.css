@@ -168,13 +168,14 @@ img {
   color: #fff;
   font-size: 5rem;
   font-weight: 800;
-  height: 20%;
+  height: auto;
   border: solid 5px #fff;
   border-radius: 5rem;
   width: 50%;
   text-decoration: none;
   text-align: center;
   padding: 5rem;
+  justify-content: center;
 }
 
 .container1 a:hover{
